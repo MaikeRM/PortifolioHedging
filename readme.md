@@ -1,45 +1,7 @@
----
-
-title: "Dynamic Hedging — Simples exemplo"
-
-categories: []
-
-# MUDE APENAS ANO DIA E MES PARA O DIA QUE VOCE NOS ENVIOU
-date: '2022-04-013T00:00:00Z' 
-
-draft: no
-
-featured: no
-
-gallery_item: null
-
-image:
-  caption: 
-  focal_point: 
-  preview_only: 
-
-projects: []
-
-subtitle: Python e BSM para “hedgear” uma posição em opções de PETR4
-
-summary: null
-
-# DIGITE NA LISTA ABAIXO OS TRACKS DO SEU CODIGO
-tags: 
-- Open Data
-- Options
-- Hedging
-
-# DIGITE NA LISTA ABAIXO O NOME DE TODOS OS AUTORES SEM ESPACOS
-authors:
-- MaikeRMota
+# Dynamic Hedging — Simples exemplo
 
 
----
-
-VOCE ESCREVE TEXTO AQUI.
-
-    Nota: não confie 100% no que descrevi neste artigo, busque por falhas e melhorias e, principalmente, não utilize como estratégia de investimento.
+> Nota: não confie 100% no que descrevi neste artigo, busque por falhas e melhorias e, principalmente, não utilize como estratégia de investimento.
 
 # Carteira de opções
 Ações possuem uma exposição direta tanto ao risco idiossincrático quanto ao risco sistemático.
@@ -139,11 +101,11 @@ Usando uma combinação desses ativos podemos neutralizar a exposição do nosso
 # Neutralizando as gregas
 As gregas que estamos interessados em neutralizar no portfólio atual podem ser expressos como um vetor…
 
-{{< figure src="https://miro.medium.com/max/261/1*YXIv5hw8XcmcXx_g2uC93w.png" width="100%" >}}    
+< img src="https://miro.medium.com/max/261/1*YXIv5hw8XcmcXx_g2uC93w.png" width="100%" >   
 
 O objetivo é encontrar os pesos dos três ativos que somos capazes de negociar para neutralizar esses valores. Primeiro, vamos procurar neutralizar gama e vega, em seguida, usando o ativo subjacente, vamos neutralizar delta …
 
-{{< figure src="https://miro.medium.com/max/353/1*X4RNrGu6kJhZYyqkb27vhw.png" width="100%" >}}    
+< img src="https://miro.medium.com/max/353/1*X4RNrGu6kJhZYyqkb27vhw.png" width="100%" >  
 
 Isso significa inverter a matriz contendo os valores das gregas para as opções negociáveis podemos encontrar os pesos apropriados…
 
