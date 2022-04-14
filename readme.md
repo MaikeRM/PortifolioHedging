@@ -101,11 +101,11 @@ Usando uma combinação desses ativos podemos neutralizar a exposição do nosso
 # Neutralizando as gregas
 As gregas que estamos interessados em neutralizar no portfólio atual podem ser expressos como um vetor…
 
-<img src="https://miro.medium.com/max/261/1*YXIv5hw8XcmcXx_g2uC93w.png" width="100%">   
+<img src="https://miro.medium.com/max/261/1*YXIv5hw8XcmcXx_g2uC93w.png" width="50%">   
 
 O objetivo é encontrar os pesos dos três ativos que somos capazes de negociar para neutralizar esses valores. Primeiro, vamos procurar neutralizar gama e vega, em seguida, usando o ativo subjacente, vamos neutralizar delta …
 
-<img src="https://miro.medium.com/max/353/1*X4RNrGu6kJhZYyqkb27vhw.png" width="100%">  
+<img src="https://miro.medium.com/max/353/1*X4RNrGu6kJhZYyqkb27vhw.png" width="50%">  
 
 Isso significa inverter a matriz contendo os valores das gregas para as opções negociáveis podemos encontrar os pesos apropriados…
 
